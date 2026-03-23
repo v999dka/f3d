@@ -92,8 +92,8 @@ int TestSDKInteractorCommand([[maybe_unused]] int argc, [[maybe_unused]] char* a
     inter.triggerCommand("cycle_coloring invalid") == false);
 
   // Coverage set_camera
-  test(
-    "triggerCommand set_camera invalid arg", inter.triggerCommand("set_camera invalid") == false);
+  test("triggerCommand set_camera invalid arg", 
+    inter.triggerCommand("set_camera invalid") == false);
 
   // Coverage exception handling
   test("triggerCommand exception handling",
