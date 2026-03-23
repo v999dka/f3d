@@ -1265,8 +1265,8 @@ interactor& interactor_impl::initCommands()
           std::string("Command: set_camera arg:\"") + std::string(type) + "\" is not recognized.");
       }
     },
-    command_documentation_t{
-      "set_camera front/top/right/back/bottom/left/isometric", "position the camera in the specified location" },
+    command_documentation_t{ "set_camera front/top/right/back/bottom/left/isometric",
+      "position the camera in the specified location" },
     std::bind(complNames, std::placeholders::_1,
       std::vector<std::string>{ "front", "top", "right", "back", "bottom", "left", "isometric" }));
 
