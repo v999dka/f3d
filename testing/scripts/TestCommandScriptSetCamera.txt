@@ -1,0 +1,4 @@
+set_camera top
+toggle ui.scalar_bar
+print_scene_info
+increate_light_intensity

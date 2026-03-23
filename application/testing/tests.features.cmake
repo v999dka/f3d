@@ -480,6 +480,7 @@ f3d_test(NAME TestCommandScriptJumpToStartKeyFrame SCRIPT DATA soldier_animation
 f3d_test(NAME TestCommandScriptJumpToPositiveOutsideKeyFrame SCRIPT DATA soldier_animations.mdl ARGS --animation-indices=2 --animation-progress)
 f3d_test(NAME TestCommandScriptJumpToNegativeOutsideKeyFrame SCRIPT DATA soldier_animations.mdl ARGS --animation-indices=2 --animation-progress)
 f3d_test(NAME TestCommandScriptJumpToKeyFrameNoAnimation SCRIPT DATA cow.vtp)
+f3d_test(NAME TestCommandScriptSetCamera SCRIPT DATA dragon.vtu) # set_camera top;toggle ui.scalar_bar;print_scene_info;increase_light_intensity
 
 ## Tests to increase coverage
 # Output option test
